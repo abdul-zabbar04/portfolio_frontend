@@ -12,7 +12,7 @@ const Projects = () => {
     useEffect(() => {
         // Fetching the data using axios
         axios
-            .get("http://127.0.0.1:8000/port_folio/projects/")
+            .get("https://abdulzabbar.vercel.app/port_folio/projects/")
             .then((response) => {
                 setProjects(response.data); // Set the response data to state
                 setLoading(false); // Set loading to false after data is fetched

@@ -16,7 +16,7 @@ const Skills = () => {
   };
   useEffect(() => {
     // Fetch skills data from the API
-    axios.get('http://127.0.0.1:8000/port_folio/skills/')
+    axios.get('https://abdulzabbar.vercel.app/port_folio/skills/')
       .then((response) => {
         console.log(response.data);
         setSkills(response.data); // Set the skills data to state

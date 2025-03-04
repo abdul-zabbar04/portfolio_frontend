@@ -7,7 +7,7 @@ const About = () => {
 
   useEffect(() => {
       axios
-          .get("http://127.0.0.1:8000/port_folio/academic/")
+          .get("https://abdulzabbar.vercel.app/port_folio/academic/")
           .then((response) => {
               setAcademics(response.data); // Set the response data to state
               setLoading(false); // Set loading to false after data is fetched

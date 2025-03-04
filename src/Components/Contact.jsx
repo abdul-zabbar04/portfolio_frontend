@@ -30,7 +30,7 @@ const Contact = () => {
     setIsSubmitting(true); // Set button to "Submitting..."
 
     try {
-      const response = await axios.post('http://127.0.0.1:8000/port_folio/contact/', formData);
+      const response = await axios.post('https://abdulzabbar.vercel.app/port_folio/contact/', formData);
       // console.log(response);
       if (response.status === 201) {
         // console.log("status 201");

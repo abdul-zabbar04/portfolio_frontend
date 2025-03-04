@@ -9,7 +9,7 @@ function ProjectDetails() {
 
   useEffect(() => {
     axios
-      .get(`http://127.0.0.1:8000/port_folio/project/${id}/`)
+      .get(`https://abdulzabbar.vercel.app/port_folio/project/${id}/`)
       .then((response) => {
         setProject(response.data);
         setLoading(false);
