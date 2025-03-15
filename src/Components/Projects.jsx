@@ -48,7 +48,10 @@ const Projects = () => {
                             />
                             <div className="p-5">
                                 <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
-                                <div className="flex justify-between">
+                                <div className="">
+                                    <p className="text-gray-700 mt-2">{project?.features || "No features listed."}</p>
+                                </div>
+                                <div className="flex justify-between mt-2">
                                     <Link
                                         to={`/project/${project.id}`}
                                         className="btn btn-outline btn-primary w-1/2 mr-2"
