@@ -3,7 +3,7 @@ import heroImg from "../assets/hero.png";
 
 const Hero = () => {
   return (
-    <section className="pt-16 min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-10 bg-base-200">
+    <section className="pt-16 min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-16 bg-base-200">
       {/* Left Side Content */}
       <div className="text-center md:text-left md:w-2/3">
         <motion.h1
