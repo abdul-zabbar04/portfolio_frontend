@@ -34,7 +34,7 @@ const Hero = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        <img src={heroImg} alt="Hero Image" className="w-64 md:w-full rounded-lg shadow-lg" />
+        <img src={heroImg} alt="Hero Image" className="w-64 md:w-full rounded-lg" />
       </motion.div>
     </section>
   );
